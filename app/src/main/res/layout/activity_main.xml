@@ -11,8 +11,21 @@
         android:id="@+id/clock"
         class="mg.akim.ora.Clock"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         tools:layout_editor_absoluteX="170dp"
         tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run" />
+
+    <fragment
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_blank"
+        android:name="mg.akim.ora.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

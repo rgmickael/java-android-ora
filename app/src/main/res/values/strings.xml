@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ora</string>
+    <string name="strTitle">Login</string>
+    <string name="strLogin">Utilisateur</string>
+    <string name="strPassword">Mot de passe</string>
+    <string name="strCon">Se Connecter</string>
 </resources>
